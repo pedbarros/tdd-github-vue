@@ -32,4 +32,17 @@ describe('UserView', () => {
 
 
   })
+
+  it('passes a binded user prop to user profile component', () => {
+    const { wrapper, userProfile } = build()
+
+    wrapper.setData({
+      user: {
+        name: 'Pedro'
+      }
+    })
+
+   // expect(userProfile().vm.user).toBe(wrapper.vm.user)
+    expect(userProfile().vm.user).toBe(wrapper.vm.user)
+  })
 })
