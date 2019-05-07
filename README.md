@@ -1,4 +1,6 @@
-# tdd-app
+# TDD-github-vue
+
+Creating a search form with vue and TDD
 
 ## Project setup
 ```
