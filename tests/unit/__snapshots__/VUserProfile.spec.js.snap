@@ -1,8 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`UserView renders the component 1`] = `
-<div>
-  <vusersearchform-stub></vusersearchform-stub>
-  <vuserprofile-stub user="[object Object]"></vuserprofile-stub>
+exports[`VUserProfile renders the component 1`] = `
+<div class="user-profile"><img src="https://github.com/images/error/octocat_happy.gif" class="user-profile__avatar">
+  <div class="user-profile__name">
+    monalisa octocat
+  </div>
+  <div class="user-profile__bio">
+    There once was...
+  </div>
 </div>
 `;
